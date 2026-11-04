@@ -45,7 +45,7 @@
 ![SQLite](https://img.shields.io/badge/SQLite-003b57?logo=sqlite&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-C%23-000000?logo=unity&logoColor=white)
 
-До AI — 6 лет Unity, VR/AR и промышленного софта; сейчас Unity остаётся хобби-стеком и игровым направлением.
+До AI — 6 лет Unity, VR/AR и промышленного софта.
 
 ## 📫 Связаться
 
