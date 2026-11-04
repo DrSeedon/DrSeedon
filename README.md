@@ -24,7 +24,7 @@ I build production LLM systems: autonomous multi-agent platforms, enterprise too
 | | |
 |---|---|
 | 🎼 **[Orchestra ADE](https://github.com/DrSeedon/orchestra)** | Open-source Agentic Development Environment: 4 runtimes under a unified control plane (Claude, Codex, Grok, OpenRouter), per-agent `git worktree` isolation, automated cross-vendor review before merge, 10+ custom MCP servers, 2,600+ automated tests |
-| 🤖 **100+ AI Agents in Production** | Multi-agent engineering and enterprise operations: commercial deployment running 87 agents, 8,274 verified tool calls, and a 114M-record data pipeline |
+| 🤖 **[100+ AI Agents in Production](https://seedon.ru)** | Multi-agent engineering and enterprise operations: commercial deployment running 87 agents, 8,274 verified tool calls, and a 114M-record data pipeline |
 | 🔌 **MCP & Tool Calling** | Idempotent tool execution, operation audit logs, post-action verification, permission tiers, and human-in-the-loop escalation |
 | 🗄️ **Data & RAG Pipelines** | 10⁸-record cross-matching pipelines, hybrid dense/sparse search (`bge-m3`), PostgreSQL / SQLite |
 
@@ -53,8 +53,8 @@ Prior to AI engineering — 6 years building Unity games, VR/AR simulators, and 
 
 - 🌐 Website & Case Studies: **[seedon.ru](https://seedon.ru)**
 - 💬 Telegram: [@DrSeedon](https://t.me/DrSeedon)
-- ✉️ Email: [maxim-as@bk.ru](mailto:maxim-as@bk.ru)
-- 💼 [LinkedIn](https://www.linkedin.com/in/максим-астраханцев-13a9391b9/)
+- ✉️ Email: [maxim2000as@gmail.com](mailto:maxim2000as@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/maxim-astrakhantsev-13a9391b9](https://www.linkedin.com/in/maxim-astrakhantsev-13a9391b9)
 - 🎨 Personal Portfolio: [drseedon.github.io/web_portfolio](https://drseedon.github.io/web_portfolio/)
 
 ---
@@ -71,7 +71,7 @@ Prior to AI engineering — 6 years building Unity games, VR/AR simulators, and 
 | Направление | Описание |
 |---|---|
 | 🎼 **[Orchestra ADE](https://github.com/DrSeedon/orchestra)** | Открытый оркестратор AI-агентов: 4 рантайма под одним контуром (Claude, Codex, Grok, OpenRouter), изоляция агентов через `git worktree`, кросс-ревью другой моделью, 10+ собственных MCP-серверов, 2 600+ автотестов |
-| 🤖 **100+ AI-агентов в проде** | Мультиагентная разработка и эксплуатация: коммерческое внедрение — 87 агентов, 8 274 вызова инструментов, массив на 114 млн записей |
+| 🤖 **[100+ AI-агентов в проде](https://seedon.ru)** | Мультиагентная разработка и эксплуатация: коммерческое внедрение — 87 агентов, 8 274 вызова инструментов, массив на 114 млн записей |
 | 🔌 **MCP и tool calling** | Идемпотентность, журнал операций, перепроверка результата, классы прав действий, human-in-the-loop |
 | 🗄️ **Данные и RAG** | Пайплайны на 10⁸ записей, гибридный поиск, PostgreSQL / SQLite |
 
@@ -81,6 +81,12 @@ Prior to AI engineering — 6 years building Unity games, VR/AR simulators, and 
 - **[kesha-tg-bot](https://github.com/DrSeedon/kesha-tg-bot)** — Telegram-бот на Claude Code SDK
 - **[mcp-websearch](https://github.com/DrSeedon/mcp-websearch)** — MCP-сервер: веб-поиск через Perplexity Sonar и генерация изображений
 - **[yougile-mcp](https://github.com/DrSeedon/yougile-mcp)** · **[gpb-mcp](https://github.com/DrSeedon/gpb-mcp)** — специализированные MCP-серверы
+
+**Контакты:**
+- 🌐 Сайт и кейсы: **[seedon.ru](https://seedon.ru)**
+- 💬 Telegram: [@DrSeedon](https://t.me/DrSeedon)
+- ✉️ Email: [maxim2000as@gmail.com](mailto:maxim2000as@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/maxim-astrakhantsev-13a9391b9](https://www.linkedin.com/in/maxim-astrakhantsev-13a9391b9)
 
 До AI — 6 лет Unity, VR/AR и промышленного софта. Полная русская версия: **[README.ru.md](./README.ru.md)**.
 

@@ -24,7 +24,7 @@
 | | |
 |---|---|
 | 🎼 **[Orchestra ADE](https://github.com/DrSeedon/orchestra)** | Открытый оркестратор AI-агентов: 4 рантайма под одним контуром (Claude, Codex, Grok, OpenRouter), изоляция агентов через `git worktree`, кросс-ревью другой моделью, 10+ собственных MCP-серверов, 2 600+ автотестов |
-| 🤖 **100+ AI-агентов в проде** | Мультиагентная разработка и эксплуатация: коммерческое внедрение — 87 агентов, 8 274 вызова инструментов, массив на 114 млн записей |
+| 🤖 **[100+ AI-агентов в проде](https://seedon.ru)** | Мультиагентная разработка и эксплуатация: коммерческое внедрение — 87 агентов, 8 274 вызова инструментов, массив на 114 млн записей |
 | 🔌 **MCP и tool calling** | Идемпотентность, журнал операций, перепроверка результата, классы прав действий, human-in-the-loop |
 | 🗄️ **Данные и RAG** | Пайплайны на 10⁸ записей, гибридный поиск (`bge-m3`), PostgreSQL / SQLite |
 
@@ -53,6 +53,6 @@
 
 - 🌐 Сайт и кейсы: **[seedon.ru](https://seedon.ru)**
 - 💬 Telegram: [@DrSeedon](https://t.me/DrSeedon)
-- ✉️ Email: [maxim-as@bk.ru](mailto:maxim-as@bk.ru)
-- 💼 [LinkedIn](https://www.linkedin.com/in/максим-астраханцев-13a9391b9/)
+- ✉️ Email: [maxim2000as@gmail.com](mailto:maxim2000as@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/maxim-astrakhantsev-13a9391b9](https://www.linkedin.com/in/maxim-astrakhantsev-13a9391b9)
 - 🎨 Портфолио: [drseedon.github.io/web_portfolio](https://drseedon.github.io/web_portfolio/)
