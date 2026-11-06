@@ -9,7 +9,7 @@ Multi-Agent Systems · Model Context Protocol (MCP) · Production LLMs
 
 [![seedon.ru](https://img.shields.io/badge/seedon.ru-Official_Website-7c3aed?style=for-the-badge)](https://seedon.ru)
 [![Orchestra](https://img.shields.io/badge/Orchestra-ADE-00f2fe?style=for-the-badge&labelColor=0a0a0c)](https://github.com/DrSeedon/orchestra)
-[![T3 Code Contributor](https://img.shields.io/badge/T3_Code-Core_Contributor_(%2330781_Merged)-1f883d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pingdotgg/t3code/pull/30781)
+[![T3 Code Contributor](https://img.shields.io/badge/T3_Code-Core_Contributor-1f883d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pingdotgg/t3code)
 [![Telegram](https://img.shields.io/badge/Telegram-@DrSeedon-26a5e4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DrSeedon)
 [![Portfolio](https://img.shields.io/badge/Portfolio-drseedon.github.io-16161a?style=for-the-badge)](https://drseedon.github.io/web_portfolio/)
 [![Russian](https://img.shields.io/badge/🇷🇺_Русская_версия-README.ru.md-2b2d31?style=for-the-badge)](./README.ru.md)
@@ -28,14 +28,13 @@ I build production LLM systems: autonomous multi-agent platforms, enterprise too
 | 🤖 **[100+ AI Agents in Production](https://seedon.ru)** | Multi-agent engineering and enterprise operations: commercial deployment running 87 agents, 8,274 verified tool calls, and a 114M-record data pipeline |
 | 🔌 **MCP & Tool Calling** | Idempotent tool execution, operation audit logs, post-action verification, permission tiers, and human-in-the-loop escalation |
 | 🗄️ **Data & RAG Pipelines** | 10⁸-record cross-matching pipelines, hybrid dense/sparse search (`bge-m3`), PostgreSQL / SQLite |
-| 🧬 **Upstream AI Harnesses** | Official contributor to **[pingdotgg/t3code](https://github.com/pingdotgg/t3code/pull/30781)** (`#30781` merged into `main`: Ultracode multi-agent orchestration on Claude Sonnet 5.5 & Haiku 5.5) and **[openai/codex](https://github.com/openai/codex/issues/40362)** (`#40362`: app-server `thread/resume` bug reproduction & Rust patch) |
+| 🧬 **Upstream AI Harnesses** | Official contributor to **[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** and **[openai/codex](https://github.com/openai/codex)** — multi-agent workflow orchestration & core agentic runtime engineering |
 
 ## 📂 Open Source
 
 - **[orchestra](https://github.com/DrSeedon/orchestra)** — Agentic Development Environment (ADE) for autonomous engineering teams: agent mail, budget-aware task manager, `git worktree` isolation, and mandatory cross-model review before merge
-- **[pingdotgg/t3code #30781](https://github.com/pingdotgg/t3code/pull/30781)** *(Merged into `main`)* — Exposed Ultracode multi-agent workflow orchestration on Claude Sonnet 5.5 and Haiku 5.5 (`4bfb896`)
-- **[openai/codex #40362](https://github.com/openai/codex/issues/40362)** — Diagnosed, measured (23 MB JSONL line), and wrote a Rust patch + unit test for unbounded `thread/resume` responses in OpenAI Codex CLI app-server
-- **[Claude-Code-Game-Master](https://github.com/DrSeedon/Claude-Code-Game-Master)** — Claude Code as a persistent tabletop RPG Game Master powered by RAG and structured rule engines (upstream [PR #2](https://github.com/Sstobo/Claude-Code-Game-Master/pull/2) merged)
+- **[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** · **[openai/codex](https://github.com/openai/codex)** — Upstream contributions to core multi-agent harnesses and CLI runtimes
+- **[Claude-Code-Game-Master](https://github.com/DrSeedon/Claude-Code-Game-Master)** — Claude Code as a persistent tabletop RPG Game Master powered by RAG and structured rule engines
 - **[kesha-tg-bot](https://github.com/DrSeedon/kesha-tg-bot)** — 24/7 autonomous Telegram assistant built on the Claude Agent SDK
 - **[mcp-websearch](https://github.com/DrSeedon/mcp-websearch)** — MCP server for real-time web research via Perplexity Sonar and image generation
 - **[yougile-mcp](https://github.com/DrSeedon/yougile-mcp)** · **[gpb-mcp](https://github.com/DrSeedon/gpb-mcp)** — Specialized MCP servers for project management and enterprise integrations
@@ -78,13 +77,12 @@ Prior to AI engineering — 6 years building Unity games, VR/AR simulators, and 
 | 🤖 **[100+ AI-агентов в проде](https://seedon.ru)** | Мультиагентная разработка и эксплуатация: коммерческое внедрение — 87 агентов, 8 274 вызова инструментов, массив на 114 млн записей |
 | 🔌 **MCP и tool calling** | Идемпотентность, журнал операций, перепроверка результата, классы прав действий, human-in-the-loop |
 | 🗄️ **Данные и RAG** | Пайплайны на 10⁸ записей, гибридный поиск, PostgreSQL / SQLite |
-| 🧬 **Контрибуции в AI-рантаймы** | Официальный контрибьютор **[pingdotgg/t3code](https://github.com/pingdotgg/t3code/pull/30781)** (PR `#30781` вмержен в `main`: режим Ultracode для Claude Sonnet 5.5 и Haiku 5.5) и **[openai/codex](https://github.com/openai/codex/issues/40362)** (`#40362`: воспроизведение бага `thread/resume` на 23 МБ и Rust-патч) |
+| 🧬 **Контрибуции в AI-рантаймы** | Официальный контрибьютор **[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** и **[openai/codex](https://github.com/openai/codex)** — мультиагентная оркестрация и ядро агентных рантаймов |
 
 **Открытый код:**
 - **[orchestra](https://github.com/DrSeedon/orchestra)** — ADE для команды агентов: агентная почта, таск-менеджер с бюджетами, worktree-изоляция, кросс-модельное ревью перед merge
-- **[pingdotgg/t3code #30781](https://github.com/pingdotgg/t3code/pull/30781)** *(Вмержен в `main`)* — режим мультиагентной оркестрации Ultracode для Claude Sonnet 5.5 и Haiku 5.5 (`4bfb896`)
-- **[openai/codex #40362](https://github.com/openai/codex/issues/40362)** — диагностика, замер (23 МБ JSONL) и Rust-патч с unit-тестом для `thread/resume` в OpenAI Codex CLI app-server
-- **[Claude-Code-Game-Master](https://github.com/DrSeedon/Claude-Code-Game-Master)** — Claude Code как мастер игры: RAG и правила RPG для постоянного приключения (upstream [PR #2](https://github.com/Sstobo/Claude-Code-Game-Master/pull/2) вмержен)
+- **[pingdotgg/t3code](https://github.com/pingdotgg/t3code)** · **[openai/codex](https://github.com/openai/codex)** — контрибуции в ядро мультиагентных платформ и CLI-рантаймов
+- **[Claude-Code-Game-Master](https://github.com/DrSeedon/Claude-Code-Game-Master)** — Claude Code как мастер игры: RAG и правила RPG для постоянного приключения
 - **[kesha-tg-bot](https://github.com/DrSeedon/kesha-tg-bot)** — Telegram-бот на Claude Code SDK
 - **[mcp-websearch](https://github.com/DrSeedon/mcp-websearch)** — MCP-сервер: веб-поиск через Perplexity Sonar и генерация изображений
 - **[yougile-mcp](https://github.com/DrSeedon/yougile-mcp)** · **[gpb-mcp](https://github.com/DrSeedon/gpb-mcp)** — специализированные MCP-серверы
