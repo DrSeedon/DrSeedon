@@ -9,6 +9,7 @@
 
 [![seedon.ru](https://img.shields.io/badge/seedon.ru-основной_сайт-7c3aed?style=for-the-badge)](https://seedon.ru)
 [![Orchestra](https://img.shields.io/badge/Orchestra-ADE-00f2fe?style=for-the-badge&labelColor=0a0a0c)](https://github.com/DrSeedon/orchestra)
+[![T3 Code Contributor](https://img.shields.io/badge/T3_Code-Core_Contributor_(%2330781_Merged)-1f883d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pingdotgg/t3code/pull/30781)
 [![Telegram](https://img.shields.io/badge/Telegram-@DrSeedon-26a5e4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/DrSeedon)
 [![Portfolio](https://img.shields.io/badge/Портфолио-drseedon.github.io-16161a?style=for-the-badge)](https://drseedon.github.io/web_portfolio/)
 [![English](https://img.shields.io/badge/🇬🇧_English_Version-README.md-2b2d31?style=for-the-badge)](./README.md)
@@ -27,11 +28,14 @@
 | 🤖 **[100+ AI-агентов в проде](https://seedon.ru)** | Мультиагентная разработка и эксплуатация: коммерческое внедрение — 87 агентов, 8 274 вызова инструментов, массив на 114 млн записей |
 | 🔌 **MCP и tool calling** | Идемпотентность, журнал операций, перепроверка результата, классы прав действий, human-in-the-loop |
 | 🗄️ **Данные и RAG** | Пайплайны на 10⁸ записей, гибридный поиск (`bge-m3`), PostgreSQL / SQLite |
+| 🧬 **Контрибуции в AI-рантаймы** | Официальный контрибьютор **[pingdotgg/t3code](https://github.com/pingdotgg/t3code/pull/30781)** (PR `#30781` вмержен в `main`: режим Ultracode для Claude Sonnet 5.5 и Haiku 5.5) и **[openai/codex](https://github.com/openai/codex/issues/40362)** (`#40362`: воспроизведение бага `thread/resume` на 23 МБ и Rust-патч) |
 
 ## 📂 Открытый код
 
 - **[orchestra](https://github.com/DrSeedon/orchestra)** — ADE для команды агентов: агентная почта, таск-менеджер с бюджетами, worktree-изоляция, кросс-модельное ревью перед merge
-- **[Claude-Code-Game-Master](https://github.com/DrSeedon/Claude-Code-Game-Master)** — Claude Code как мастер игры: RAG и правила RPG для постоянного приключения
+- **[pingdotgg/t3code #30781](https://github.com/pingdotgg/t3code/pull/30781)** *(Вмержен в `main`)* — режим мультиагентной оркестрации Ultracode для Claude Sonnet 5.5 и Haiku 5.5 (`4bfb896`)
+- **[openai/codex #40362](https://github.com/openai/codex/issues/40362)** — диагностика, замер (23 МБ JSONL) и Rust-патч с unit-тестом для `thread/resume` в OpenAI Codex CLI app-server
+- **[Claude-Code-Game-Master](https://github.com/DrSeedon/Claude-Code-Game-Master)** — Claude Code как мастер игры: RAG и правила RPG для постоянного приключения (upstream [PR #2](https://github.com/Sstobo/Claude-Code-Game-Master/pull/2) вмержен)
 - **[kesha-tg-bot](https://github.com/DrSeedon/kesha-tg-bot)** — Telegram-бот на Claude Code SDK
 - **[mcp-websearch](https://github.com/DrSeedon/mcp-websearch)** — MCP-сервер: веб-поиск через Perplexity Sonar и генерация изображений
 - **[yougile-mcp](https://github.com/DrSeedon/yougile-mcp)** · **[gpb-mcp](https://github.com/DrSeedon/gpb-mcp)** — специализированные MCP-серверы
